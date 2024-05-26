@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>Rouge vert</title>
+	</head>
+	<style>
+		.ok{
+			color: white;
+			background-color: green;
+			text-shadow: 1px 1px 1px black;
+			box-shadow: 1px 1px 1px black;
+		}
+		.lumiere
+		{
+			padding: .5em;
+			margin: .5em;
+		}
+	</style>
+	<body>
+		<p><span class="lumiere">Départ</span></p>
+		<script>
+            s.addEventListener('click',function(){
+			  if(s.classList.contains('ok')){s.classList.remove('ok');}
+			  else {s.classList.add('ok');}
+			});
+		</script>
+	</body>
+</html>
